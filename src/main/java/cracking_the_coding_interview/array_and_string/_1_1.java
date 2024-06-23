@@ -1,4 +1,4 @@
-package com.example.cracking_the_coding_interview.array_and_string;
+package cracking_the_coding_interview.array_and_string;
 
 public class _1_1 {
     // 중복 문제
