@@ -1,9 +1,15 @@
-import java.util.Arrays;
-
 class Solution {
     public int[] solution(int[] numbers) {
-        return Arrays.stream(numbers)
-                .map( a -> a * 2)
-                .toArray();
+        
+        int[] result = new int[numbers.length];
+        int index = 0;
+        
+        for(int num : numbers){
+            result[index] = num*2;
+            index++;
+        }
+        
+        
+        return result;
     }
 }
